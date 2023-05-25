@@ -7,11 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-    $idade = $_GET ["idade"]; #get para entrar na url do site "comando php?%variavel=valor
-    if($idade >= 18){
-        echo "você é maior de idade";
-    } else echo "você ainda é de menor";
+    <?php
+   $celsius  = $_GET["temp"];
+   echo " ($Celsius * 9/5) + 32"
     ?>
 </body>
 </html>
