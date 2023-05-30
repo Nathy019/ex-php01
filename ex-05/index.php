@@ -8,8 +8,8 @@
 </head>
 <body>
     <?php
-   $celsius  = $_GET["temp"];
-   echo " ($Celsius * 9/5) + 32"
+   $celsius  = $_GET["celsius"];
+   echo " agora a temperatura entá em" . $celsius * (9/5) + 32 . " ° Farhrenhit";
     ?>
 </body>
 </html>
