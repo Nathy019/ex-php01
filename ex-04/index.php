@@ -9,7 +9,7 @@
 <body>
     <?php
    $numero = 2;
-   if($numero % 3==0){
+   if($numero % 2 == 0){
     echo "Este numero é par";
    } else echo "Este numero é impar"
     ?>

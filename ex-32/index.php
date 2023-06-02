@@ -16,11 +16,11 @@
     </form>
     <?php
 $numero = $_POST["numero"];
-$contador = 0;
 
-while ($contador <= 10);
-echo "$numero X $contador = " . $contador * $numero . "<br>";
-$contador = $contador + 1;
+for($i = 0; $i <= 10; $i++){
+echo "$numero X $i = " . $numero*$i . "<br>";
+}
     ?>
 </body>
+
 </html>

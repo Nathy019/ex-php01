@@ -1,7 +1,7 @@
-<?php
+<?php 
+
 $numeros = [5, 1, 2, 4, 3];
 echo "5, 1, 2, 4, 3 <br>";
-sort($numeros);
+rsort($numeros);
 print_r($numeros);
-
 ?>
